@@ -1,0 +1,49 @@
+public class OperationsComplexes {
+    public static void main(String[] args) {
+        // Variables de base
+        int g = 4;
+         g = g*2;
+        int r = 6 + 0;
+        int f = 44 - 0;
+        int e = f-f;
+        int t = 0/f;
+        int u = f / 1;
+        int f = f/f;
+        int a = 8;
+        int z = a;
+	int b = 3;
+	int w = z + b;
+        int c = 2;
+
+        float x = 5.5;
+        float y = 2.3;
+
+        // Opérations complexes sur int
+        int resultatInt1 = (a + b) * c;           // (8 + 3) * 2 = 22
+        int resultatInt2 = a * b - c * (a - b);   // 8*3 - 2*(8 - 3) = 24 - 10 = 14
+
+
+        // Opérations complexes sur float
+        float resultatFloat1 = (x + y) / c;                      // (5.5 + 2.3) / 2 = 3.9
+        float resultatFloat2 = x * y + (x / y);                  // 5.5 * 2.3 + (5.5 / 2.3) = 15.041 = 15.0
+
+
+        // Mélange int et float
+        float mixte1 = a + x * b;           // 8 + 5.5 * 3 = 8 + 16.5 = 24.5
+        float mixte2 = (a + b) / y;         // 11 / 2.3 ≈ 4.7826 = 4.8
+
+  
+  System.out.println("Début de la boucle for :");
+            for (int i = 0; i <= 3; i++) {
+                System.out.println("Boucle for, itération : " + i);
+               int  j=8;
+              while( j  <=  10 ){
+       System.out.println("Boucle While, itération : " + j);
+              j++;     
+}
+} 
+
+
+
+} 
+}
